@@ -17,6 +17,7 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue')
     },
+    // 动态路由
     {
       path: '/saveParam/:id',
       name: 'saveParams',
